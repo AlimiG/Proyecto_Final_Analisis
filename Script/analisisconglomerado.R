@@ -7,11 +7,12 @@ library(dplyr)
 library(readr)
 library(GGally)
 library(factoextra)
+library(xtable)
 h = 6
 w = 6
 datos1 <- read.csv("Data/movies.csv")
 head(datos)
-
+options(round(4))
 datos <- datos1 %>%
   select(budget,country,genre,gross,rating,runtime,score,votes,year)
 
@@ -24,7 +25,7 @@ nd = aggregate(numeric_data,by=list(rating=datos$rating),mean)
 nd
 numeric.values = nd[,2:6]
 rownames(numeric.values) = nd[,1]
-
+numeric.values
 # Matriz de distancias y heatmap
 disty <- get_dist(numeric.values,method = "pearson")
 fviz_dist(disty)+ ggtitle("Distancia entre Ratings")
@@ -72,7 +73,7 @@ nd = aggregate(numeric_data,by=list(rating=datos$genre),mean)
 nd
 numeric.values = nd[,2:6]
 rownames(numeric.values) = nd[,1]
-
+numeric.values
 # Matriz de distancias y heatmap
 disty <- get_dist(numeric.values,method = "pearson")
 fviz_dist(disty)+ ggtitle("Distancia entre Géneros")

@@ -1,0 +1,28 @@
+% latex table generated in R 3.6.3 by xtable 1.8-4 package
+% Sun Mar 22 16:57:35 2020
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrr}
+  \hline
+ & (-1,30] & (30,80] & (80,250] & (250,938] \\ 
+  \hline
+Action & 0.10 & 0.05 & 0.04 & 0.01 \\ 
+  Adventure & 0.03 & 0.01 & 0.01 & 0.00 \\ 
+  Animation & 0.02 & 0.01 & 0.01 & 0.00 \\ 
+  Biography & 0.04 & 0.01 & 0.00 & 0.00 \\ 
+  Comedy & 0.22 & 0.06 & 0.02 & 0.00 \\ 
+  Crime & 0.06 & 0.01 & 0.00 & 0.00 \\ 
+  Drama & 0.17 & 0.03 & 0.01 & 0.00 \\ 
+  Family & 0.00 & 0.00 & 0.00 & 0.00 \\ 
+  Fantasy & 0.00 & 0.00 & 0.00 & 0.00 \\ 
+  Horror & 0.02 & 0.01 & 0.00 & 0.00 \\ 
+  Musical & 0.00 & 0.00 & 0.00 & 0.00 \\ 
+  Mystery & 0.00 & 0.00 & 0.00 & 0.00 \\ 
+  Romance & 0.00 & 0.00 & 0.00 & 0.00 \\ 
+  Sci-Fi & 0.00 & 0.00 & 0.00 & 0.00 \\ 
+  Thriller & 0.00 & 0.00 & 0.00 & 0.00 \\ 
+  War & 0.00 & 0.00 & 0.00 & 0.00 \\ 
+  Western & 0.00 & 0.00 & 0.00 & 0.00 \\ 
+   \hline
+\end{tabular}
+\end{table}
